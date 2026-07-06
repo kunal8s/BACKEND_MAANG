@@ -1,5 +1,5 @@
-const fs = require("fs");
-const http = require("http");
+const fs = require("node:fs"); // node: tells this module is node core inbuilt module
+const http = require("node:http");
 
 var a = 1234565432;
 var b = 23456543;
